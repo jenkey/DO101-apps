@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'Kaory Morita é minha esposa, e a mais linda do mundo!' + '\n';
+    response = 'Esta é a versão 3' + '\n';
 
     //send the response to the client
     res.send(response);
